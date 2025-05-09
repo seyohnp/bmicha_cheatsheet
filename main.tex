@@ -6,14 +6,90 @@
 
 \begin{document}
 
-    \section*{L1: Understanding Options}
-    \subsection*{Terminology}
-        \textbf{Derivatives}: Any financial instrument that is derived from another e.g. options, warrants, futures, swaps\\
-        \textbf{Option}: gives the holder the right to buy or sell a security at a specified price during a specified time period\\
-        \textbf{Call Option}: The right to buy a security at a specified price within a specified time\\
-        \textbf{Put Option}: The right to sell a security at a specified price within a specified time\\
-        \textbf{Option Premium}: The price paid for the option, above the price of the underlying security\\
-        \textbf{Intrinsic Value}: Difference between the strike price and the stock price\\
-        \textbf{Time Premium}: Value of option above the intrinsic value\\
-        \textbf{Exercise Price}: (Strike Price) The price at which you uby or sell the security\\
+\section*{Terminology}
+    \textbf{Derivatives}: Any financial instrument that is derived from another e.g. options, warrants, futures, swaps\\
+    \textbf{Option}: gives the holder the right to buy or sell a security at a specified price during a specified time period\\        \textbf{Call Option}: The right to buy a security at a specified price within a specified time\\
+    \textbf{Option Premium}: The price paid for the option, above the price of the underlying security\\
+    \textbf{Intrinsic Value}: Difference between the strike price and the stock price\\
+    \textbf{Time Premium}: Value of option above the intrinsic value\\
+    \textbf{Exercise Price}: (Strike Price) The price at which you uby or sell the security\\
+    \textbf{American Option}: Can be exercised at any time prior to and including the expiration date\\
+    \textbf{European Option}: Can be exercised only on the expiration date\\
+    \textbf{Exercise price $\uparrow$}: \textbf{Call Price $\downarrow$}, \textbf{Put Price $\uparrow$}\\  
+    \textbf{Put Option}: The right to sell a security at a specified price within a specified time\\
+    \textbf{Butterfly}
+    \textbf{Straddle}
+\section*{Formulas}
+\subsection{Put-Call-Parity}
+    \[
+C + PV(EX) = P + S
+\]
+
+\noindent where:
+\begin{itemize}
+  \item $C$ = Price of the European call option
+  \item $PV(EX)$ = Present value of the strike price = $\frac{Ex.Price}{(1+r)}$
+  \item $P$ = Price of a European Put
+  \item $S$ = Share Price
+\end{itemize}
+\subsection{Option \Delta}
+\[Option \Delta = \frac{C_u - C_d}{S_u - S_d} = \frac{P_u - P_d}{S_u - S_d}\]
+\noindent where:
+\begin{itemize}
+  \item $C_u$ = Call upside
+  \item $C_d$ = Call downside
+  \item $P$ = Put
+  \item $S$ = Stock
+\end{itemize}
+\subsection{Risk neutral probability of rising value}
+\[p^{*} = \frac{(1+r) - d}{u-d}\]
+\noindent where:
+\begin{itemize}
+  \item $r$ = Interest rate
+  \item $d$ = Relative downward change
+  \item $u$ = Relative upward change
+\end{itemize}
+\subsection{Expected Value}
+\[Expected Value = (p^{*} * PayOff_u) + ([1 - p^{*}] * PayOff_d)\]
+\subsection{Present Value}
+\[Present Value = \frac{Expected Value}{(1+r)} = ValueShares - ValueLoan\]
+\[Value Loan = \frac{ValueShares_d}{(1+r)}\]
+\subsection{Up and Down Changes}
+\[1 + UpsideChange = u = e^{\sigma*\sqrt{h}}\]
+\[1 + DownsideChange = d = \frac{1}{u}\]
+\noindent where:
+\begin{itemize}
+  \item $\simga$ = Standar Deviation
+  \item $h$ = Fraction of Year
+\end{itemize}
+\subsection{Black-Scholes Formula(weg wenn zu viel)}
+\[C = (N[d_1] * S) - (N[d_2] * PV[EX])\]
+\[d_1 = \frac{log(\frac{S}{PV[EX]]})}{\sigma *\sqrt{t}} + \frac{\sigma\sqrt{2}}{2}\]
+\[d_2 = d_1 - \sigma\sqrt{t}\]
+\noindent where:
+\begin{itemize}
+  \item $C$ = Call Value
+  \item $N[d]$ = Cummulative normal probability
+  \item $PV(EX)$ = Ex. Price at risk-free interest rate
+  \item $S$ = Stock price
+  \item $t$ = number of periods tp exercise date
+  \item $\sigma$ = Standard Deviation 
+  \item $if d_1 is large, N(d_1) is close to 1.0$
+  \item $if d_1 is zero, N(d_1) is close to 0.5$
+\end{itemize}
+\subsection{Present Value Formlua BOND}
+\[PV = \sum_{t=1}^{T}\frac{cpn}{(1+r)^{t}}+\frac{par}{(1+r)^{T}}\]
+
+\noindent where:
+\begin{itemize}
+  \item $cpn$ = Coupon rate
+  \item $r$ = Interest rate
+  \item $T$ = Number of periods
+  \item $par$ = Face value
+\end{itemize}
+\section{Take or Die}
+\textbf{Expansion Options}: Uncertainty $\uparrow$ - Valoue of exp. option $\uparrow$
+
+
+\section*{Binomial Method}
 \end{document}
