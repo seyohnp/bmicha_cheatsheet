@@ -41,7 +41,15 @@
     \textbf{Puttable (retractable) bond}: Allows the investor to be reapid for the debt, A protective covenant for the investor\\
     \textbf{Sinking fund}: A fund established to retire debt before maturity\\
     \textbf{Bond covenants}: Debt ratios, Security, Dividends, Event risk, (+) working capital, (+) net worth\\
-
+    \textbf{Lease}: Rental agreement that involves fixed payments from lessee to lessor (\textit{Reasons: convenient, provided maintenance, low cost through standardization, tax shields, financial distress, avoid capital expenditure controls, preserve capital off-balance sheet financing})
+    \textbf{Direct Lease}: The lessor buy the equipment from the manufacturer
+    \textbf{Full Service Lease}: The lessor provides maintenance and insurance
+    \textbf{Operating Lease}: The initial lease period is shorter than the economic life of the asset
+    \textbf{Financial Lease}: The initial lease period is long enough for the lessor to recover the cost of the asset
+    \textbf{Net Lease}: The lessee provides maintenance and insurance
+    \textbf{Leveraged Lease}: The lessor finances the lease contract by issuing debt and equity claims against it
+    \textbf{Sale and Leaseback}: The lessors buys the equipment from the prospective lessee
+    
 
 \section*{Formulas}
 \subsection{Put-Call-Parity}
@@ -88,7 +96,7 @@ C + PV(EX) = P + S
 \end{itemize}
 \subsection{Black-Scholes Formula(weg wenn zu viel)}
 \[C = (N[d_1] * S) - (N[d_2] * PV[EX])\]
-\[d_1 = \frac{log(\frac{S}{PV[EX]]})}{\sigma *\sqrt{t}} + \frac{\sigma\sqrt{2}}{2}\]
+\[d_1 = \frac{log(\frac{S}{PV[EX]})}{\sigma *\sqrt{t}} + \frac{\sigma\sqrt{2}}{2}\]
 \[d_2 = d_1 - \sigma\sqrt{t}\]
 \noindent where:
 \begin{itemize}
@@ -131,8 +139,19 @@ C + PV(EX) = P + S
 \begin{itemize}
   \item Never worth more than the stock price itself.
   \item When the share is worthless, the option is worthless.
-  \item 
 \end{itemize}
-
+\section*{Lease or Buy}
+\begin{itemize}
+  \item Buy if equivalent annual cost of ownership and operation is less than the best lease rate
+  \item For using extended periods, buying tends to be cheaper
+  \item Leasing, because lessor might be able to manage asset at less expense than lessee
+  \item Leasing has useful options in leasing agreement
+\end{itemize}
+\[NPV_{lease} = InitialFinancing - \sum_{t=1}^{T}\frac{LeaseCashFlow}{[1 + r_D * (1-T_c)]^t}\]
+\[NPV = PV_{EquivalentLoan} + InitialFinancing\]
+\begin{itemize}
+  \item $r_D$ = discount rate
+  \item $t_c$ = marginal tax rate
+\end{itemize}
 \section*{Binomial Method}
 \end{document}
