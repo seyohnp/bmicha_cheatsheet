@@ -2,6 +2,9 @@
 \usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{caption}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{array}
 
 
 \author{ehaller, seyohnp}
@@ -95,7 +98,7 @@ C + PV(EX) = P + S
 \subsection{Expected Value}
 \[Expected Value = (p^{*} * PayOff_u) + ([1 - p^{*}] * PayOff_d)\]
 \subsection{Present Value}
-\[Present Value = \frac{Expected Value}{(1+r)} = ValueShares - ValueLoan\]
+\[Pres Value = \frac{Expected Value}{(1+r)} = ValShares - ValLoan\]
 \[Value Loan = \frac{ValueShares_d}{(1+r)}\]
 \subsection{Up and Down Changes}
 \[1 + UpsideChange = u = e^{\sigma*\sqrt{h}}\]
@@ -185,8 +188,24 @@ C + PV(EX) = P + S
 \end{itemize}
 \section*{Premium- Discount Relationship}
 \[ForwardDiscount = \frac{1}{t_{years}} * (\frac{SpotPrice}{ForwardRate} - 1)\]
-\section{Basic Relationships
+\section*{Basic Relationships
 in the FX Market}
 \vspace{30mm}
+\[CurrSpotRate * Exp.Diff.InflationRates = Exp.SpotRate\]
+\[r_{Real} = \frac{1+r_{nom}}{1+r_{exp}}-1\]
+\[\frac{(1+r_{CHF})^t}{(1+r_{USD})^t}*S_{CHF/USD} = ForwardExchangeRates\]
+\[Req.Return = r_{Swiss} + \beta * MarketRiskPrem_{Swiss}\]
+\section*{Balance sheet}
+\begin{itemize}
+  \item Assets are listed in declining order of liquidity
+  \item Current assets are inventories of raw materials, work in process, and finished goods
+  \item Current liabilities include debts that are due to be repaid and payables
+  \item Net working capital is the difference between current assets and liabilities
+  \item Net working capital = \$10,890 -- 14,243 = -- \$3,353
+\end{itemize}
+
+\[EBIT = TotalRevelue - Costs - Depriciation\]
+\vspace{30mm}
+ExampleTable
 \section*{Binomial Method}
 \end{document}
