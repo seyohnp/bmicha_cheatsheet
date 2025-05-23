@@ -50,7 +50,7 @@
     \textbf{Leveraged Lease}: The lessor finances the lease contract by issuing debt and equity claims against it
     \textbf{Sale and Leaseback}: The lessors buys the equipment from the prospective lessee
     \textbf{Spot price}: Price paid for immediate delivery
-    \textbf{Forward vs futures contract}: Both contracts buy or sell at a specified future date at a specified price. However, compared to forwards, futures are traded on an exchange and they are marked to market.
+    \textbf{Forward vs futures contract}: Both contracts buy or sell at a specified future date at a specified price. However, compared to forwards, futures are traded on an exchange and they are marked to market. \textit{Futures fixes a price which has to be payed if market value is higher or lower}
     \textbf{Long vs short position}: Investors who are long have agreed to buy the asset. Investors who are short have contracted to sell.
     \textbf{Basis risk}: The risk that arises because the price of the asset used to hedge is not perfectly correlated with that of the asset that is being hedged.
     \textbf{Mark to market}:Profits and losses on a position are settled on a regular basis
@@ -161,6 +161,16 @@ C + PV(EX) = P + S
 \end{itemize}
 \section*{Managing Risks}
 \textbf{Risks to a business:} Cash shortfalls, Financial distress, Agency costs, Currency fluctuations, Political instability, Weather changes
-
+\section*{Pricing Futures Contracts}
+\[F_t = S_0 * (1 + r_f - y)^t \]
+\[= S_0 * (1 + StorageCost - NCY)^t\]
+\[NCY = ConvenienceYield - StorageCost\]
+\begin{itemize}
+  \item $F_t$ = future price on contract of $t$ length
+  \item $S_0$ = today's spot price
+  \item $r_f$ = risk-free interest rate
+  \item $y$ = dividend yield 
+  \item $NCY$ = NetConvenienceYield
+\end{itemize}
 \section*{Binomial Method}
 \end{document}
