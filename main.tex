@@ -55,7 +55,9 @@
     \textbf{Basis risk}: The risk that arises because the price of the asset used to hedge is not perfectly correlated with that of the asset that is being hedged.
     \textbf{Mark to market}:Profits and losses on a position are settled on a regular basis
     \textbf{Net convenience yield}: The advantage from owning the commodity rather than the promise of future delivery less the cost of storing the commodity
-    
+    \textbf{Exchange Rate}: Amount of one currency needed to buy one unit on another
+    \textbf{Spot Rate of Exchange}: Exchange rate for an immediate transaction
+    \textbf{Forward Exchange rate}: Exchange rate for a forward transaction
 
 \section*{Formulas}
 \subsection{Put-Call-Parity}
@@ -163,7 +165,7 @@ C + PV(EX) = P + S
 \textbf{Risks to a business:} Cash shortfalls, Financial distress, Agency costs, Currency fluctuations, Political instability, Weather changes
 \section*{Pricing Futures Contracts}
 \[F_t = S_0 * (1 + r_f - y)^t \]
-\[= S_0 * (1 + StorageCost - NCY)^t\]
+\[= S_0 * (1 + StorageCost - CY)^t\]
 \[NCY = ConvenienceYield - StorageCost\]
 \begin{itemize}
   \item $F_t$ = future price on contract of $t$ length
@@ -172,5 +174,13 @@ C + PV(EX) = P + S
   \item $y$ = dividend yield 
   \item $NCY$ = NetConvenienceYield
 \end{itemize}
+\section*{Hedging Rations and Basis Risk}
+\[ExpectedChangeInValueA = \alpha + \delta * (ChangInValueB)\]
+\begin{itemize}
+  \item $\delta$ = sensitivity of A to change in the value of B (hedge ration)
+  \item $\alpha$ = offset
+\end{itemize}
+\section*{Premium- Discount Relationship}
+\[ForwardDiscount = \frac{1}{t_{years}} * (\frac{SpotPrice}{ForwardRate} - 1)\]
 \section*{Binomial Method}
 \end{document}
