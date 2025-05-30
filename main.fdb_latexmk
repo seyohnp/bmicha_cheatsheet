@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1748587745 "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.tex" "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.pdf" "main" 1748587745
-  "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.aux" 1748587745 2294 de4e9581a7b97dbb3fca4fa3258ef75a ""
-  "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.tex" 1748587745 14103 2ebb6dd7142997c28ac0dc2124580a1d ""
+["pdflatex"] 1748588004 "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.tex" "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.pdf" "main" 1748588055
+  "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.aux" 1748588005 2294 de4e9581a7b97dbb3fca4fa3258ef75a ""
+  "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.tex" 1748588004 14106 d9701ed12b9af60f6045aab93337d774 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcss0700.tfm" 1136768653 1536 e5428b375c095aa4874fb47053e1d4fc ""
@@ -158,13 +158,13 @@
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1632170055 2724742 1d27191311b9a82532ae53f0c363321a ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "cheatsheet.cls" 1747991598 7529 e281e3e8e777ee0307c05cd8d61f3daf ""
-  "main.aux" 1748587745 2294 de4e9581a7b97dbb3fca4fa3258ef75a "pdflatex"
-  "main.out" 1748587745 2353 89e8cb15a8bb91d2cb6587dcbe058bc7 "pdflatex"
-  "main.tex" 1748587745 14103 2ebb6dd7142997c28ac0dc2124580a1d ""
+  "main.aux" 1748588005 2294 de4e9581a7b97dbb3fca4fa3258ef75a "pdflatex"
+  "main.out" 1748588005 2353 89e8cb15a8bb91d2cb6587dcbe058bc7 "pdflatex"
+  "main.tex" 1748588004 14106 d9701ed12b9af60f6045aab93337d774 ""
   (generated)
-  "main.pdf"
   "main.out"
+  "main.log"
   "main.aux"
   "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.pdf"
   "/Users/PaskaranSeyohn/Documents/ETH/MSc/FS_2025/bmicha_cheatsheet/main.log"
-  "main.log"
+  "main.pdf"
