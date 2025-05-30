@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1748581149.48042 "c:/Users/elias/Desktop/ETH/Advanced Finance/bmicha_cheatsheet/main.tex" "main.pdf" "main" 1748581151.08316 0
+["pdflatex"] 1748581550.77145 "c:/Users/elias/Desktop/ETH/Advanced Finance/bmicha_cheatsheet/main.tex" "main.pdf" "main" 1748581552.3189 0
   "C:/Users/elias/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747981450 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/elias/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcss0700.pk" 1746795560 7628 2425f8fd46ffa9ae658004c034c10e17 ""
   "C:/Users/elias/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746795468 24225045 d2c051888307114c69278373d4017cb6 ""
@@ -150,11 +150,11 @@
   "C:/Users/elias/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/elias/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/elias/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/elias/Desktop/ETH/Advanced Finance/bmicha_cheatsheet/main.tex" 1748581148 15821 42f617ae5278ccc9b5bd7ee9c81ba3f8 ""
+  "c:/Users/elias/Desktop/ETH/Advanced Finance/bmicha_cheatsheet/main.tex" 1748581550 16388 4667f584be0355afe774ad4666f808a6 ""
   "cheatsheet.cls" 1746772666 7754 e281e3e8e777ee0307c05cd8d61f3daf ""
-  "main.aux" 1748581150 2073 5a67b82fd169931dff00db9636c26da3 "pdflatex"
-  "main.out" 1748581150 2755 9d009e637eb84f828586f9f21519a06a "pdflatex"
-  "main.tex" 1748581148 15821 42f617ae5278ccc9b5bd7ee9c81ba3f8 ""
+  "main.aux" 1748581552 2073 5a67b82fd169931dff00db9636c26da3 "pdflatex"
+  "main.out" 1748581552 2755 9d009e637eb84f828586f9f21519a06a "pdflatex"
+  "main.tex" 1748581550 16388 4667f584be0355afe774ad4666f808a6 ""
   (generated)
   "main.aux"
   "main.log"
